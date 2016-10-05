@@ -1,0 +1,39 @@
+{
+	"name": "iuf/unicycling.org",
+	"description": "IUF Website based on keeko",
+	"type": "keeko-app",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "gossi"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"iuf\\unicycling\\app\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.4",
+		"keeko/composer-installer": "*"
+	},
+	"require-dev": {
+		"keeko/core": "@dev",
+		"composer/composer": "@dev",
+		"propel/propel": "@alpha",
+		"puli/composer-plugin": "@beta",
+		"keeko/framework": "dev-master",
+		"puli/repository": "@beta",
+		"puli/twig-extension": "@beta",
+		"puli/url-generator": "@beta",
+		"puli/discovery": "@beta"
+	},
+	"extra": {
+		"keeko": {
+			"app": {
+				"title": "Iuf Unicycling.org",
+				"class": "iuf\\unicycling\\app\\UnicyclingApplication"
+			}
+		}
+	}
+}
