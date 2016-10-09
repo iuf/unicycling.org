@@ -14,7 +14,7 @@
 	<!-- Styles -->
 	<link href="{{ resource_url("/assets/bootstrap/dist/css/bootstrap.min.css") }}" rel="stylesheet">
 	<link href="{{ resource_url("/assets/font-awesome/css/font-awesome.min.css") }}" rel="stylesheet">
-	<link href="{{ resource_url("/gossi/trixionary-app/public/css/trixionary-app.css") }}" rel="stylesheet">
+	<link href="{{ resource_url("/iuf/unicycling.org/public/css/unicycling.org.css") }}" rel="stylesheet">
 
 	{% for link in page.getLinks() %}
 	<link{% if link.getHref() %} href="{{ resource_url(link.getHref()) }}"{% endif %}{% if link.getRel() %} rel="{{ link.getRel() }}"{% endif %}{% if link.getType() %} type="{{ link.getType() }}"{% endif %}>

@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+
+body > footer {
+	position: fixed;
+	bottom: 0;
+	height: 80px;
+	background-color: #f8f8f8;
+	border-top: 1px solid #e7e7e7;
+	width: 100%;
+
+	padding-top: 10px;
+}
+
+a:focus, *:focus, .btn:focus, .btn.active:focus, .btn:active:focus {
+	outline: none;
+}
